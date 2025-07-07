@@ -14,18 +14,25 @@
     }
 
     .grid{
+        justify-content: space-between;
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 20px;
+        max-width: 1200px;
     }
 
     .grid-item{
-        background-color: white;
+        border-radius: 1rem;
+        background-color: rgb(195, 0, 255);
         display: flex;
         flex-direction: column;
-        width: 200px;
-        height: 200px;
-    }
-    .info-p{
+        width: 300px;
+        height: 450px;
         text-align: center;
+    }
+    .infopoke{
+        text-align: center;
+    }
+    .movements{
+        list-style: none;
     }
